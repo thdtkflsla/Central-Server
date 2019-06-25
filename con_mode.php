@@ -30,4 +30,5 @@ if(isset($_POST['saving_mode']) && isset($_POST['security_mode']) && isset($_POS
     $response["error_msg"] = "전송실패하였습니다";
     echo json_encode($response, JSON_UNESCAPED_UNICODE);
 }
+
 ?>
